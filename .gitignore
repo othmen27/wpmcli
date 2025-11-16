@@ -1,0 +1,48 @@
+# Ignore compiled files
+*.o
+*.out
+*.a
+*.so
+*.exe
+
+# Ignore core dumps
+core
+
+# Ignore Vim swap and backup files
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Ignore Vim undo files
+*.un~
+
+# Ignore generated debug files
+*.d
+
+# Ignore object files and executables in the build folder
+/build/
+
+# Ignore all files created by IDEs/editors (e.g., VS Code, Sublime Text, etc.)
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore system-specific files
+.DS_Store         # macOS
+Thumbs.db         # Windows
+
+# Ignore git metadata folders
+/.git/
+
+# Ignore the directory where logs might be kept
+/log/
+
+# Ignore custom generated files, e.g., dependency files
+*.dep
+
+# Ignore temporary files
+*.temp
+*.bak
+
